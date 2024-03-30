@@ -1,0 +1,44 @@
+ftp
+31.31.196.95
+u2213782
+mA9gD2lP2vrO1vS8
+
+
+
+
+лог u2213782
+пароль K24I0dSVw0fsiHZt
+https://server204.hosting.reg.ru:1500/
+
+
+phpmyadmin
+u2213782_zdata
+tV7sG6zV1lnI3kH5
+https://server204.hosting.reg.ru/phpmyadmin/
+
+
+
+
+ 
+shavaleevramil045@gmail.com
+n5KC_!ih
+
+ 
+https://www.reg.ru/
+
+суперамдин
+INSERT INTO `users` (`id`, `fio`, `dt`, `email`, `tel`, `role`, `pass`, `code`) VALUES
+(6, 'admin', '', 'admin@admin.ru', '121212', 'BOO1', '$2y$10$JDJ5JDEwJHY3cDluUjN6O.88U5fjMO/vSLEJcjlcromSxJdrAKy9W', '');
+INSERT INTO `users` (`id`, `fio`, `dt`, `email`, `tel`, `role`, `pass`, `code`) VALUES
+(6, 'admin2', '', 'admin2', '121212', 'BOO1', '$2y$10$JDJ5JDEwJHY3cDluUjN6O.88U5fjMO/vSLEJcjlcromSxJdrAKy9W', '');
+admin
+x1aM12afD
+
+
+РОЗ
+
+ 
+alexbkast@bk.ru
+
+ 
+0000

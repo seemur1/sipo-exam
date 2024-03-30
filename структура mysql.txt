@@ -1,0 +1,154 @@
+//данные заявок
+
+
+
+//пользователи
+
+//данные заявок
+brn-бренд
+art-артикул
+nm-номенклатура
+cnt-количество
+zid - уникальный номер
+spl-разбиения
+price-цена\ед
+acen-наценка
+lng-сроки(недель)
+unit-валюта
+mid-какому менеджеру передали
+create table zdata
+(
+id INT NOT NULL AUTO_INCREMENT,
+brn varchar(500)   NULL,
+art varchar(500)   NULL,
+nm varchar(500)   NULL,
+cnt varchar(50)   NULL,
+zid INT NOT  NULL,
+spl INT NOT  NULL,
+price INT    NULL,
+acen varchar(50)    NULL,
+lng varchar(50)    NULL,
+unit varchar(50)    NULL,
+mid  INT DEFAULT 0,
+accepted INT DEFAULT 0,
+PRIMARY KEY (id)
+);
+
+//заявки
+cmp-компания
+dl-сроки
+dt-дата создания
+men - фио создателя
+adr-адресс
+dlt-удаленная
+stp-этап
+comm-комментарий
+ create table zv
+(
+id INT NOT NULL AUTO_INCREMENT,
+cmp varchar(500)   NULL,
+dl INT  NULL,
+dt INT  NULL,
+men varchar(500)   NULL,
+adr varchar(500)   NULL,
+dlt varchar(2)   NULL,
+stp varchar(100)   NULL,
+comm TEXT   NULL,
+PRIMARY KEY (id)
+);
+
+
+ create table users
+(
+id INT NOT NULL AUTO_INCREMENT,
+fio varchar(500)   NULL,
+dt  varchar(500)    NULL,
+email varchar(500)   NULL,
+tel varchar(500)   NULL,
+role varchar(500)   NULL,
+pass varchar(500) NOT  NULL,
+code varchar(500)    NULL,
+PRIMARY KEY (id)
+);
+
+ create table comp 
+(
+id INT NOT NULL AUTO_INCREMENT,
+nme varchar(500)   NULL,
+inn   varchar(500)   NULL,
+email varchar(500)   NULL,
+cnt varchar(500)   NULL,
+ogrn varchar(500)   NULL,
+kpp varchar(500)   NULL,
+okpo varchar(500)   NULL,
+rs varchar(500)   NULL,
+ks varchar(500)   NULL,
+bik varchar(500)   NULL,
+adr varchar(500)   NULL,
+gdir varchar(1000)   NULL,
+comm varchar(1000)   NULL,
+PRIMARY KEY (id)
+);
+ 
+//данные для коммерческого предложения
+ create table headkp
+(
+id INT NOT NULL AUTO_INCREMENT,
+data  TEXT not   NULL,
+data2  TEXT not   NULL,
+zid INT NOT  NULL,
+split INT NOT  NULL,
+PRIMARY KEY (id)
+);
+
+ create table dstep1
+(
+id INT NOT NULL AUTO_INCREMENT,
+data  TEXT not   NULL,
+zid INT NOT  NULL,
+PRIMARY KEY (id)
+);
+ create table dstep2
+(
+id INT NOT NULL AUTO_INCREMENT,
+data  TEXT not   NULL,
+zid INT NOT  NULL,
+PRIMARY KEY (id)
+);
+ create table dstep3
+(
+id INT NOT NULL AUTO_INCREMENT,
+data  TEXT not   NULL,
+zid INT NOT  NULL,
+PRIMARY KEY (id)
+);
+ create table dstep4
+(
+id INT NOT NULL AUTO_INCREMENT,
+data  TEXT not   NULL,
+zid INT NOT  NULL,
+PRIMARY KEY (id)
+);
+ create table dstep5
+(
+id INT NOT NULL AUTO_INCREMENT,
+data  TEXT not   NULL,
+zid INT NOT  NULL,
+PRIMARY KEY (id)
+);
+ create table dstep6
+(
+id INT NOT NULL AUTO_INCREMENT,
+data  TEXT not   NULL,
+zid INT NOT  NULL,
+PRIMARY KEY (id)
+);
+//причины отказа
+ create table rcancel
+(
+id INT NOT NULL AUTO_INCREMENT,
+data  TEXT NOT   NULL,
+zid INT NOT  NULL,
+spl INT NOT  NULL,
+PRIMARY KEY (id)
+);

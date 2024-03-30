@@ -1,0 +1,78 @@
+.mainfone
+{
+ 
+  width: 100%;
+  height: 1080px;
+  overflow-x:hidden;
+  background-image: url("supimages/fone.jpg");
+  background-size: cover;
+  
+
+}
+.upmenu
+{
+width: 100%;
+  height: 50px;
+  overwlow-x:hidden;
+  background: rgba(137 79, 243, 0.2); /* красный цвет с прозрачностью 50% */	
+  top:0px;
+  position:absolute;
+}
+
+.rightmenu
+{
+width:50px;
+  height: 100%;
+  overwlow-x:hidden;
+  background: rgba(137 79, 243, 0.2); /* красный цвет с прозрачностью 50% */	
+  right:2px;
+  top:50px;
+   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);  
+  position:absolute;
+}
+
+.mainContainer
+{
+position:absolute;
+left:50%;
+width:80%;
+margin-left:-40%;
+ 
+top:110px;	
+}
+.pStep1
+{
+width:204px;
+height:162px;
+background-image:url(supimages/pl.png);
+position:relative;
+display:inline-block;
+}
+
+.tHeader
+{
+color:#777777;
+font-size:14px;
+text-align:left;	
+}
+
+.tText
+{
+color:#000000;
+font-size:14px;
+text-align:left;	
+}
+
+.hadminText
+{
+color:#000000;
+font-size:17px;
+text-align:left;	
+}
+
+.usersHeader
+{
+color:#777777;
+font-size:14px;
+text-align:left; 	
+}
